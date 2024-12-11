@@ -1,0 +1,152 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #958d8d;
+}
+
+/* Navbar styles */
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section styles */
+.hero {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Produk Section styles */
+#produk {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#produk h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: rgb(209, 202, 202);
+    padding: 20px;
+    border: 5px  solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.btn-buy {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 5px solid bisque;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Kontak Section styles */
+#kontak {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#kontak form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#kontak input,
+#kontak textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#kontak button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
